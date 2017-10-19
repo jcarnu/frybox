@@ -11,6 +11,7 @@ from Crypto.Hash import SHA, HMAC
 # Fichier de configuration par défaut
 INIFILE = "fbx.ini"
 # Root CA certificat de la freebox tel que défini dans la documentation de l'API Freebox
+# TODO Pour l'instant ces certificats ECDSA et RSA sont dans des fichiers mais à terme j'aimerais bien les intégrer dans l'application
 FREEBOX_ROOT_CA = """
 -----BEGIN CERTIFICATE-----
 MIIFmjCCA4KgAwIBAgIJAKLyz15lYOrYMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNV
