@@ -16,3 +16,6 @@ Les flags en ligne de commande sont -w éteindre le wifi (explicitement) -W allu
 # Note sur les certificats
 Il est important de conserver les fichiers crt dans le répertoire afin de pouvoir authentifier les certificats
 SSL/TLS de la Freebox (l'api utilise SSL).
+
+# Notes de développement
+L'API Freebox OS est ici : https://dev.freebox.fr/sdk/os/
